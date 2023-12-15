@@ -1,0 +1,402 @@
+
+/* font */
+@font-face {
+    font-family: Coda;
+    src: url(Fonts/Coda/Coda-ExtraBold.ttf);
+}
+
+*{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: Coda;
+}
+
+/* body  */
+body{
+    margin: 0;
+}
+.unipadding{
+    padding: 0 7%;
+}
+
+/* topbar  */
+#topbar{
+    background-color: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+    
+    text-align: center;
+    
+}
+#socialicon{
+    float:right;
+   
+    
+}
+#tollfree{
+    float: left;
+    color: white;
+    
+    margin: 0px;
+    margin-top: 5px;
+}
+.fa-brands {
+    background-color: white;
+    color: #576574;
+    padding: 7px;
+    border-radius: 50%;
+
+}
+.fa-facebook-f{
+    padding: 7px 10px;
+
+}
+.fa-whatsapp{
+    padding: 7px 9px;
+    margin-left: 5px;
+
+}
+.fa-instagram{
+    padding: 7px 9px;
+    margin-left: 5px;
+
+}
+.fa-twitter{
+    margin-left: 5px;
+}
+/* logobar  */
+
+#logobar img{
+      
+      margin-top: 25px;
+      margin-bottom: 25px;
+      border-radius: 10%;
+      
+}
+/* navbar  */
+#navbar{
+    background-color: orangered;
+    
+
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 20px 0px;
+    padding-right: 35px;
+   
+}
+#navbar ul{
+    margin: 0;
+    padding: 0;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font: 18px;
+}
+
+
+/* poster */
+
+#poster{
+    background-image: url(Images/officepic.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    backdrop-filter: brightness(10px);
+    background-size: cover;
+            
+}
+#poster h1{
+    font-size: 50px;
+}
+#poster p{
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/* why us */
+#whysection{
+    overflow: auto;
+    margin-bottom: 50px;
+
+}
+.redheading{
+    color: orangered;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+
+}
+.section33{
+    width: 33.33%;
+    float: left;
+    font-size: 35px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+
+}
+.section33 h2{
+    color: orangered;
+    font-size: 35px;
+    
+}
+.section33 p{
+    font-size: 20px;
+}
+/* contact  */
+#contactcontainer{
+    background-color: orangered;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom:30px ;
+
+
+}
+#cotactbtn{
+    background-color: white;
+    color: orangered;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.section70{
+    width: 70%;
+    float: left;
+}
+.section30{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 70px;
+
+}
+/* blog  */
+.section33 a{
+    color: orangered;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Coda;
+}
+
+/* subscribe */
+#subscribesection{
+    background-color: orangered;
+    color: white;
+    overflow: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+
+}
+.section50{
+    width: 50%;
+    float: left;
+    
+}
+.section50 h2{
+    font-size: 27px ;
+    text-align: right;
+    padding-right: 50px;
+}
+.section50 form{
+    padding-top: 20px;
+    
+}
+
+.section50 input[type="text"]{
+    padding: 10px 15px;
+    font-size: 15px;
+    color: orangered;
+    margin-right: 20px;
+    border:none;
+    width: 45%;
+
+
+}
+.section50 input[type="submit"]{
+    border:none;
+    padding: 8px 35px;
+    font-size: 15px;
+    color: orangered;
+    
+}
+
+
+
+
+
+
+
+/* footer  */
+#implink{
+    background-color: #576574;
+    color: white;
+    overflow: auto;
+}
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+    
+}
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset:10px ;
+    text-decoration-thickness:2px ;
+    
+}
+#footermenu{
+    list-style-type: none;
+    padding: 0px;
+}
+#footermenu li{
+    padding-bottom: 10px;
+}
+#footermenu li a{
+    text-decoration: none;
+    color: white;
+}
+#footermenucontainer{
+    padding-left: 150px;
+           
+}
+
+#copyright{
+    background-color:rgb(13, 13, 54);
+    text-align: center;
+    color: white;
+   
+    padding:10px;
+
+}
+
+
+
+/* Responsive ipad */
+
+@media only screen and (max-width: 768px){
+    #navbar ul li {
+     padding-right: 20px;
+    }
+    .section70 {
+       
+        padding-right: 30px;
+        box-sizing: border-box;
+}
+
+}
+
+/* Resposive mobile  */
+@media only screen and (max-width: 500px){
+    #logobar{
+        text-align: center;
+    }
+    #poster h1{
+        font-size: 28px;
+    }
+    .section33, .section70,.section30,.section50,.div33{
+        width: 100%;
+    }
+    .section70 {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .section30 {
+        
+        padding-top: 19px;
+        padding-bottom: 20px ;
+    }
+    .section50 h2 {
+        
+        text-align: center;
+        padding-right: 0;
+    }
+
+
+    .div33 {
+        
+        text-align: center;
+        padding: 25px 51px;
+    }
+    #footermenucontainer {
+        padding-left: 50px;
+    }
+           
+}
+
+ /* mobile menu  */
+
+ #navbar ul #mobilecross,#mobilebar{
+    display: none;
+ }
+
+ @media only screen and (max-width: 500px){
+    #navbar {
+        
+        position: absolute;
+        top: 0px;
+        height: 100vh;
+        width: 280px;
+        padding: 0px;
+       
+    }
+    #navbar ul li {
+        display: block;
+        padding-right: 35px;
+        border-bottom: 1px solid rgb(168, 163, 163);
+        padding-left: 20px;
+    }
+    #mobilecross{
+        text-align: right;
+
+    }
+    .fa-solid{
+        font-size: 25px;
+    }
+
+
+    #navbar{
+        left: -280px;
+      
+        
+
+    }
+
+    #mobilebar{
+        background-color: orangered;
+        color: white;
+        padding: 18px;
+        font-size: 28px;
+    }
+    #navbar ul #mobilecross,#mobilebar{
+        display: block;
+     }
+    
+    
+
+
+   
+ }
+
+
+
+
+ 
